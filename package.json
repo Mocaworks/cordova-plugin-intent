@@ -5,7 +5,8 @@
   "cordova": {
     "id": "com.napolitano.cordova.plugin.intent",
     "platforms": [
-      "android"
+      "android",
+      "browser"
     ]
   },
   "repository": {

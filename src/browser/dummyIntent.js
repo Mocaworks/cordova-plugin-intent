@@ -1,0 +1,1 @@
+module.exports = JSON.parse('{"clipItems":[{"uri":"file:///storage/emulated/0/Android/data/com.mocaworks.android.app/cache/541922/sample.pdf"}],"type":"application/pdf","extras":"Bundle[mParcelledData.dataSize=864]","action":"android.intent.action.SEND","flags":322961409,"component":"ComponentInfo{com.mocaworks.android.app/com.mocaworks.android.app.KVault}"}')

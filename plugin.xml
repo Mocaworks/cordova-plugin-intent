@@ -18,6 +18,18 @@
         <engine name="cordova" version=">=3.0.0" />
     </engines>
 
+
+    <!-- browser -->
+    <platform name="browser">
+        <js-module src="www/browser/IntentPlugin.js" name="IntentPlugin">
+            <runs />
+        </js-module>
+
+        <js-module src="src/browser/dummyIntent.js" name="IntentPlugin_dummy">
+            <merges target="intent.dummy"/>
+        </js-module>
+    </platform>
+
     <!-- android -->
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
